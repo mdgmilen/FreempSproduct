@@ -24,6 +24,7 @@ public class SproductService {
                 .build();
 
         sproductRepository.save(sproduct);
+//        sproductRepository.saveAndFlush()
         log.info("A new SProduct (service or product) with id {} is saved", sproduct.getId());
     }
 
